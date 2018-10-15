@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09803387, g: 0.13424936, b: 0.117865525, a: 1}
+  m_IndirectSpecularColor: {r: 0.09814186, g: 0.13403934, b: 0.11797685, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -186,7 +186,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3be8413349e08e54bb95733e952ec5f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 347332275}
   - component: {fileID: 347332280}
   - component: {fileID: 347332279}
+  - component: {fileID: 347332281}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -482,7 +483,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c58d511fe6541c3459b6ebe0332bcf1f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -548,6 +549,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 347332278}
   speed: 0
+--- !u!114 &347332281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347332274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 347332274}
 --- !u!1 &406940146
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,8 +632,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 406940146}
-  m_LocalRotation: {x: -0.13008475, y: -0.34994772, z: 0.049140602, w: -0.9263907}
-  m_LocalPosition: {x: -2.2253685, y: 7.688942, z: -23.101982}
+  m_LocalRotation: {x: -0.15487169, y: -0.07961724, z: 0.0125232795, w: -0.9846416}
+  m_LocalPosition: {x: 0.4310918, y: 13.114897, z: -42.834858}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -730,6 +743,7 @@ GameObject:
   - component: {fileID: 840607118}
   - component: {fileID: 840607120}
   - component: {fileID: 840607119}
+  - component: {fileID: 840607121}
   m_Layer: 0
   m_Name: Saturno
   m_TagString: Untagged
@@ -764,7 +778,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e165884d5b393ff4584644f829d14ddb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -871,6 +885,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1b87597d6a10345afd3c4c71acbc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &840607121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840607111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 840607111}
 --- !u!1 &848669815
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +910,7 @@ GameObject:
   - component: {fileID: 848669816}
   - component: {fileID: 848669821}
   - component: {fileID: 848669820}
+  - component: {fileID: 848669822}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -918,7 +945,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1d9dc98a164cee240b3d4b28bf45b253, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -984,6 +1011,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 848669819}
   speed: 0
+--- !u!114 &848669822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 848669815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 848669815}
 --- !u!1 &888230211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1259,8 @@ GameObject:
   - component: {fileID: 1263446587}
   - component: {fileID: 1263446592}
   - component: {fileID: 1263446591}
+  - component: {fileID: 1263446593}
+  - component: {fileID: 1263446594}
   m_Layer: 0
   m_Name: Urano
   m_TagString: Untagged
@@ -1234,7 +1275,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1263446586}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1254,7 +1295,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 839c3b984b21d9e449680e9f11dc9cee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1287,13 +1328,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1263446586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7489558, w: 0.66262007}
   m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -97}
 --- !u!114 &1263446591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,6 +1361,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1263446590}
   speed: 0
+--- !u!114 &1263446593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263446586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe963cf4b682c764cb2f45cec8e9371b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segments: 65
+  innerRadius: 0.7
+  thickness: 0.1
+  ringMat: {fileID: 2100000, guid: d1b7ed74e7d1d154baf6be8dc710a203, type: 2}
+--- !u!114 &1263446594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263446586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1263446586}
 --- !u!1 &1443345306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1401,7 @@ GameObject:
   - component: {fileID: 1443345307}
   - component: {fileID: 1443345312}
   - component: {fileID: 1443345311}
+  - component: {fileID: 1443345313}
   m_Layer: 0
   m_Name: Netuno
   m_TagString: Untagged
@@ -1367,7 +1436,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3be318afff0c95c4c9f0919c9d7f906a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1433,6 +1502,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1443345310}
   speed: 0
+--- !u!114 &1443345313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1443345306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1443345306}
 --- !u!1 &1506830379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1527,7 @@ GameObject:
   - component: {fileID: 1506830380}
   - component: {fileID: 1506830385}
   - component: {fileID: 1506830384}
+  - component: {fileID: 1506830386}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -1480,7 +1562,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9356f7eb8cf59574fa94533bc4f75f76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1546,6 +1628,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1506830383}
   speed: 0
+--- !u!114 &1506830386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1506830379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45768c769c7503244a9f84e48ee2b3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1506830379}
 --- !u!1 &1548587153
 GameObject:
   m_ObjectHideFlags: 0
