@@ -8,14 +8,20 @@ public class LookAtTarget : MonoBehaviour {
 	void Start () {
 		if (target == null) 
 		{
-			target = this.gameObject;
+			target = this.gameObject;          
+
 			Debug.Log ("LookAtTarget target not specified. Defaulting to parent GameObject");
-		}
+
+           
+        }    
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (target)
-			transform.LookAt(target.transform);
+        if (target)
+        {
+            transform.LookAt(target.transform);
+        }
 	}
 }

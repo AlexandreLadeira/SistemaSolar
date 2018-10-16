@@ -17,6 +17,10 @@ public class ChangeLookAtTarget : MonoBehaviour {
 	void OnMouseDown () {
 		// change the target of the LookAtTarget script to be this gameobject.
 		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 60*target.transform.localScale.x;
-	}
+
+        if(target.name.Equals("Sol"))
+		    Camera.main.fieldOfView = 5  * target.transform.localScale.x;
+        else
+            Camera.main.fieldOfView = 15 * target.transform.localScale.x;
+    }
 }

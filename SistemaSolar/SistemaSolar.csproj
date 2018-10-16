@@ -303,6 +303,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Audio.cs" />
     <Compile Include="Assets\Scripts\ChangeLookAtTarget.cs" />
     <Compile Include="Assets\Scripts\GiraGira.cs" />
     <Compile Include="Assets\Scripts\LookAtTarget.cs" />
